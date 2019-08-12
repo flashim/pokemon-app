@@ -1,0 +1,76 @@
+.App {
+  /* text-align: center; */
+  margin: 26px 13px;
+  padding: 0px;
+}
+
+.card-cont {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: 5px 5px 5px #e4e4e4;
+}
+
+.card-title-cont {
+  background-color: rgb(16, 87, 64);
+  height: 25px;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-img-cont {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 325px;
+}
+
+.card-img-cont img {
+  width: 100%;
+  height: auto;
+}
+
+.image-show {
+  display: block;
+}
+
+.image-hide {
+  display: none;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: rgb(45, 128, 49);
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 80px;
+  min-height: 22px;
+}
+
+.btn-grey {
+  background-color: #cccccc;
+  color: #666666;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  width: 80px;
+  min-height: 22px;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.loading-cont {
+  width: 100%;
+  height: 325px;
+  background-color: dimgrey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
